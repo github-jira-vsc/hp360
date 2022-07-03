@@ -8,3 +8,4 @@ Alex ha agregado su linea
 modificacion en clase
 Fecha de nacimiento
 Ciudad del usuario
+Direccion
