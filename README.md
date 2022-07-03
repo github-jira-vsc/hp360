@@ -9,4 +9,4 @@ modificacion en clase
 Fecha de nacimiento
 Ciudad del usuario
 Direccion
-Color
+Color 2
