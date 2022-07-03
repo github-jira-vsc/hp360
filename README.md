@@ -7,3 +7,4 @@ Luis ha agregado su linea
 Alex ha agregado su linea
 modificacion en clase
 Fecha de nacimiento
+Ciudad del usuario
