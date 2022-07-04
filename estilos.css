@@ -1,0 +1,78 @@
+body
+{
+    background-color: rgb(224, 224, 224);
+    font-family: Arial;
+}
+
+strong
+{
+    color: rgb(187, 0, 0);
+}
+
+#Titulo
+{
+    background-color: white;
+    text-align: center;
+}
+
+#Subtitulos
+{
+    color: rgb(0, 0, 0);
+}
+
+#estiloVen
+{
+    text-align: left;
+    display: inline-block;
+    width: 120px;
+    height: 180px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#estiloTitulo
+{
+    color: rgb(0, 0, 0);
+}
+
+#estiloOpciones
+{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#ventana
+{
+    text-align: center;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+}
+
+#boton
+{
+    background-color: rgb(150, 150, 150);
+    color: rgb(255, 255, 255);
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#mensaje
+{
+    font-size: 20px;
+    margin: 0;
+    padding: 0.8em;
+    background-color: white;
+    width: 100%;
+    height: 250px;   
+}
+
+#CntFooter
+{
+    background-color: white;
+}
