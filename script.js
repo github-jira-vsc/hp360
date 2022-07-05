@@ -184,7 +184,7 @@ v_reset.addEventListener("click", fnc_reset);
 function fnc_reset()
 {
     msj.innerHTML="<strong>reset -</strong> Es un comando potente que sirve para deshacer los cambios locales en el estado de un repositorio de Git.<br/><br/>";
-    msj.innerHTML= msj.innerHTML + "<strong>$ git reset --soft </strong> Se actualizan los punteros de referencia y el restablecimiento se detiene ahí. El índice del entorno de ensayo y el directorio de trabajo permanecen intactos.<br />";
+    msj.innerHTML= msj.innerHTML + "<strong>$ git reset --soft </strong> Se actualizan los punteros de referencia y el restablecimiento se detiene ahí. El índice del entorno de ensayo y el directorio de trabajo permanecen intactos.<br /><br />";
     msj.innerHTML= msj.innerHTML + "<strong>$ git reset --hard </strong> Los punteros de referencia del historial de confirmaciones se actualizan a la confirmación especificada.<br />";
 
 }
@@ -323,4 +323,16 @@ function fnc_checkout()
     msj.innerHTML="<strong>checkout -</strong><br/><br/>";
     msj.innerHTML= msj.innerHTML + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>$ git checkout nom_rama</strong> Cambia de rama <br />";
     msj.innerHTML= msj.innerHTML + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>$ git checkout -b</strong> Crea una nueva rama y se cambia a ella<br />";
+}
+
+//remote
+var v_remote = document.getElementById("remote");
+
+v_remote.addEventListener("click", fnc_remote);
+
+function fnc_remote()
+{
+    msj.innerHTML="<strong>remote -</strong><br/><br/>";
+    msj.innerHTML= msj.innerHTML + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>$ git remote add origin https</strong><br />";
+    msj.innerHTML= msj.innerHTML + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>$ git remote -v</strong><br />";
 }
